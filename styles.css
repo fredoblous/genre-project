@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/** index **/
+body{
+    background-color: rgb(172, 82, 82);
+}
+
+.heads{
+    background-color: brown;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.heads h1{
+    font-family: Roboto;
+}
+
+.subheads h2{
+    font-family: Roboto;
+}
+
+.pain{
+    /* display: flex;
+    justify-content: center; */
+    background-image: url(images/Untitledpain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    cursor: pointer;
+    height: 400px;
+}
+
+#DefineSL{
+    font-family: Roboto;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#why{
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+#activate-div{
+    display:none;
+}    
+
+#activate-div:checked ~ label
+.pain{
+    background-image: url(images/Untitledpainii.png);
+}
+
+#activate-div:checked ~ label
+#DefineSL{
+    opacity: 1;
+    font-size: 24px;
+}
+
+#activate-div:checked ~ label
+#why{
+    opacity: 1;
+}
+
+.continue{
+    display: flex;
+    justify-content: center;
+}
+
+/** second **/
+#sec{
+    background-color: rgb(160, 236, 160);
+}
+
+.secheads{
+    background-color: rgb(70, 148, 70);
+    border-radius: 1em;
+    text-align: center;
+}
+
+.secheads h1{
+    font-family: Roboto;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes moving{
+    0%{margin-left: 0%;}
+    100%{margin-left: 25%;}
+}
+
+.painiii{
+    background-image: url(images/Untitledpainiii.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 25%;
+
+    animation: fadeIn 2s;
+    animation: moving 5s;
+}
+
+.secsubheads h2{
+    font-family: Roboto;
+}
+
+p{
+    font-family: Roboto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.help{
+    border-style: solid;
+}
+
+.help2{
+    border-style: solid;
+}
+
+.help3{
+    border-style: solid;
+}
+
+.counterarg1{
+    font-family: Roboto;
+    margin-left: 2%;
+    font-size: 18px;
+}
+
+.counterarg2{
+    font-family: Roboto;
+    margin-left: 2%;
+    font-size: 18px;
+}
