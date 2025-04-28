@@ -23,7 +23,7 @@ body{
 .pain{
     /* display: flex;
     justify-content: center; */
-    background-image: url(images/Untitledpain.png);
+    background-image: url(Untitledpain.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 25%;
@@ -48,7 +48,7 @@ body{
 
 #activate-div:checked ~ label
 .pain{
-    background-image: url(images/Untitledpainii.png);
+    background-image: url(Untitledpainii.png);
 }
 
 #activate-div:checked ~ label
@@ -93,7 +93,7 @@ body{
 }
 
 .painiii{
-    background-image: url(images/Untitledpainiii.png);
+    background-image: url(Untitledpainiii.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
